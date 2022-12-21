@@ -8,8 +8,16 @@
 
 // BOUCLE #2
 
-let n = 11; 
-while (n > 1) {
-    n--
+// let n = 11; 
+// while (n > 1) {
+//     n--
+//     console.log(n);
+// }
+
+// BOUCLE #3
+
+let n = 0;
+do {
+    n+=2
     console.log(n);
-}
+} while (n < 20);
