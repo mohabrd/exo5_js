@@ -24,9 +24,17 @@
 
 // BOUCLE #4
 
-let arr = ['un', 'deux', 'trois'];
+// let arr = ['un', 'deux', 'trois'];
 
-for (let i of arr) {
-    console.log(i); 
+// for (let i of arr) {
+//     console.log(i); 
     
+// }
+
+// BOUCLE #5
+
+let n = 0;
+for (let index = 1; index <= 10; index++) {
+    n+=1;    
 }
+console.log(n);
