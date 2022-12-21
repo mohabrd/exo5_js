@@ -41,15 +41,24 @@
 
 // BOUCLE #6
 
-let nbrpositif;
+// let nbrpositif;
 
-while (true) {
-    nbrpositif = prompt("Entre un nombre positif");
-    if (nbrpositif >= 0) {
-        nbrpositif = alert("Bien joué !")
+// while (true) {
+//     nbrpositif = prompt("Entre un nombre positif");
+//     if (nbrpositif >= 0) {
+//         nbrpositif = alert("Bien joué !")
+//         break;
+//     }
+//     else {
+//         alert("Le nombre n'est pas positif! Veuillez réessayer.")
+//     }
+// }
+
+// BOUCLE #7
+
+for (let index = 1; index <= 10; index++) {
+    console.log(index);
+    if (index == 5) {
         break;
-    }
-    else {
-        alert("Le nombre n'est pas positif! Veuillez réessayer.")
     }
 }
