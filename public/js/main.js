@@ -33,8 +33,23 @@
 
 // BOUCLE #5
 
-let n = 0;
-for (let index = 1; index <= 10; index++) {
-    n+=1;    
+// let n = 0;
+// for (let index = 1; index <= 10; index++) {
+//     n+=1;    
+// }
+// console.log(n);
+
+// BOUCLE #6
+
+let nbrpositif;
+
+while (true) {
+    nbrpositif = prompt("Entre un nombre positif");
+    if (nbrpositif >= 0) {
+        nbrpositif = alert("Bien joué !")
+        break;
+    }
+    else {
+        alert("Le nombre n'est pas positif! Veuillez réessayer.")
+    }
 }
-console.log(n);
