@@ -16,8 +16,17 @@
 
 // BOUCLE #3
 
-let n = 0;
-do {
-    n+=2
-    console.log(n);
-} while (n < 20);
+// let n = 0;
+// do {
+//     n+=2
+//     console.log(n);
+// } while (n < 20);
+
+// BOUCLE #4
+
+let arr = ['un', 'deux', 'trois'];
+
+for (let i of arr) {
+    console.log(i); 
+    
+}
